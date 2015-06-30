@@ -277,6 +277,9 @@ hr {
 .carousel-caption .grey a{
     color:grey !important;
 }
+.philanthropy{
+    color:#df8e20;
+}
 
 /* ===========================
 --- General sections
@@ -340,9 +343,7 @@ hr {
 .slogan {
 	text-align: center;
 	margin-top: 50px;
-
 }
-
 
 
 .intro .page-scroll {
@@ -373,9 +374,29 @@ hr {
 	text-shadow: -1px 0 1px #000;
 }
 
+.slogan h2{
+    font-size: 50px;
+}
+
 .intro .slogan h4 {
 	color: #fff;
 	text-shadow: -1px 1px 1px #000;
+}
+
+/* =====================
+ * What we do, etc*/
+.sub-section{
+    font-size:25px;
+    height: 53px;
+    font-weight:500;
+    margin-bottom: 50px;
+    margin-top:0px;
+    padding-top: 40px;
+    width: 320px;
+    margin-left: -76px;
+}
+.helpwce{
+    
 }
 
 
@@ -851,29 +872,62 @@ font-style: italic;line-height:1.8; margin-top:8px;font-weight:300;
     }
     .below-carousel-mobile{
 	display:block;
-	height:100px;
-	background-color: grey;
+	height:80px;
+	background-color: #666;
+	
     }
     /*carousel banner - mobile*/
+    .philanthropy{
+	color:white !important;
+    }
     .carousel-caption{
 	font-size:15px;
-	margin-bottom: 0px;
+	margin-bottom: -30px;
+	
     }
     .carousel-title{
-	margin-bottom:0px;
+	margin-bottom:-12px;
 	font-family: sans-serif;
 	font-weight:400;
-	font-size: 12px;
-	margin-bottom:90px;
-	
+	font-size: 16px;
     }
     .carousel-caption a{
 	font-weight:300;
 	margin-bottom:10px;
 	font-size: 15px;
     }
+    .carousel-indicators{
+	display: none;
+    }
     .carousel-caption .grey a{
 	color:grey !important;
+    }
+    
+    .slogan h2 {
+	font-size: 30px;
+    }
+    .slogan h3 {
+	font-size: 20px;
+	line-height: 2em;
+    }
+    .section-heading h2 {
+	font-size: 25px !important;
+    }
+    .sub-section{
+	font-size:23px;
+	height: 53px;
+	font-weight:500;
+	margin-bottom: 35px;
+	margin-top:-15px;
+	padding-top: 40px;
+	width: 100%;
+	margin-left: -65px;
+    }
+    p.subtitle{
+	margin-top:10px;
+    }
+    .ewaste{
+	margin-left: -20px;
     }
     .hidden-phone{
 	display:none;
